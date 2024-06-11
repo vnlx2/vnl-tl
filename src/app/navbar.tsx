@@ -6,7 +6,7 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="bg-white px-5">
+        <nav className="bg-white px-5 sticky top-0">
             <div className="max-w-screen-lg mx-auto py-4 flex flex-row justify-between">
                 <div className="flex flex-row">
                     <h1 className="text-black text-2xl">VNDB</h1>
